@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         preenche_pras_ferias
 // @namespace    http://tampermonkey.net/
-// @version      2025-05-07
+// @version      0.2
 // @description  try to take over the world!
 // @author       You
 // @match        http://sigeduca.seduc.mt.gov.br/grh/ttgrhprocessomovimentacao2.aspx?*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gov.br
 // @grant        none
+// @updateURL    https://github.com/lksoumon/preenche_ferias/raw/refs/heads/main/preenche_pras_ferias.user.js
+// @downloadURL  https://github.com/lksoumon/preenche_ferias/raw/refs/heads/main/preenche_pras_ferias.user.js
 // ==/UserScript==
 
 (function() {
