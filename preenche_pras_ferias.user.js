@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         preenche_pras_ferias
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the world!
 // @author       You
 // @match        http://sigeduca.seduc.mt.gov.br/grh/ttgrhprocessomovimentacao2.aspx?*
@@ -22,9 +22,9 @@
         if (e.code === 'KeyF' && e.shiftKey) {
             // call your function to do the thing
             //document.getElementsByTagName('button')[8].click();
-            document.getElementById("GRHPRCNUMERO").value = "SEDUC-OFC-2025/00061";
-            document.getElementById("GRHPRCOBS").value = "REGISTRO DE USUFRUTO DE FÉRIAS COLETIVAS 15(QUINZE) DIAS CONFORME   PORTARIA Nº 951/2025/GS/SEDUC/MT";
-            document.getElementById("GRHPRCDTAINI").value = "06/07/2026";
+            document.getElementById("GRHPRCNUMERO").value = "PORTARIA Nº 852/2026/GS/SEDUC/MT";
+            document.getElementById("GRHPRCOBS").value = "REGISTRO DE USUFRUTO DE FÉRIAS COLETIVAS CONFORME PORTARIA Nº 951/2025/GS/SEDUC/MT";
+            document.getElementById("GRHPRCDTAINI").value = "21/12/2026";
         }
         if (e.code === 'KeyS') {
             // call your function to do the thing
